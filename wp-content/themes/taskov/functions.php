@@ -20,6 +20,39 @@ if (!defined('_S_VERSION')) {
  * as indicating support for post thumbnails.
  */
 
+// Register custom settings in Theme Customizer
+function custom_theme_customizer($wp_customize)
+{
+    $wp_customize->add_section('contact_section', array(
+        'title' => 'Contact Information',
+        'priority' => 120,
+    ));
+
+    // Phone Number field
+    $wp_customize->add_setting('phone_number', array(
+        'default' => '',
+        'sanitize_callback' => 'sanitize_text_field',
+    ));
+    $wp_customize->add_control('phone_number', array(
+        'label' => 'Phone Number',
+        'section' => 'contact_section',
+        'type' => 'text',
+    ));
+
+    // Email Address field
+    $wp_customize->add_setting('email_address', array(
+        'default' => '',
+        'sanitize_callback' => 'sanitize_email',
+    ));
+    $wp_customize->add_control('email_address', array(
+        'label' => 'Email Address',
+        'section' => 'contact_section',
+        'type' => 'email',
+    ));
+}
+
+add_action('customize_register', 'custom_theme_customizer');
+
 function theme_styles()
 {
     wp_enqueue_style('style', get_template_directory_uri() . '/css/style.css');
@@ -34,7 +67,7 @@ function enqueue_scripts()
         array(), false, true);
     wp_enqueue_script("slick", get_template_directory_uri() . "/js/slick.min.js",
         array(), false, true);
-    wp_enqueue_script("init",get_template_directory_uri() .  "/js/init.js",
+    wp_enqueue_script("init", get_template_directory_uri() . "/js/init.js",
         array(), false, true);
 }
 
