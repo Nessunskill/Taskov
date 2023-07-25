@@ -24,8 +24,8 @@
         </ul>
     </div>
     <div class="mobile-button mb-50">
-        <a href="" class="btn-white w-full mb-5">Войти</a>
-        <a href="" class="btn w-full">Зарегистрироваться</a>
+        <a href="<?php echo home_url(); ?>/sign-in" class="btn-white w-full mb-5">Войти</a>
+        <a href="<?php echo home_url(); ?>/register" class="btn w-full">Зарегистрироваться</a>
     </div>
     <dl class="mobile-social">
         <dt class="fz14 fw600 op-50 mb-15">Связаться с нами:</dt>
