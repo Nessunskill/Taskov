@@ -19,6 +19,13 @@ if ( ! defined( '_S_VERSION' ) ) {
  * runs before the init hook. The init hook is too late for some features, such
  * as indicating support for post thumbnails.
  */
+
+function theme_styles()
+{
+    wp_enqueue_style( 'style', get_template_directory_uri() . '/css/style.css' );
+    wp_enqueue_style( 'fonts', get_template_directory_uri() . '/fonts/stylesheet.css' );
+}
+
 function taskov_setup() {
 	/*
 		* Make theme available for translation.
@@ -176,3 +183,4 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+add_action('wp_enqueue_scripts', 'theme_styles');
