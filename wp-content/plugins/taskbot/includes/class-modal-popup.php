@@ -40,7 +40,7 @@ if (!class_exists('Taskbot_Modal_Popup')) {
         {
             ob_start();
             ?>
-            <div class="modal hidden fade taskbot-profilepopup tb-addonspopup" tabindex="-1" role="dialog" id="taskbot-modal-popup">
+            <div style="display: none;" class="modal hidden fade taskbot-profilepopup tb-addonspopup" tabindex="-1" role="dialog" id="taskbot-modal-popup">
                 <div class="modal-dialog modal-dialog-centered" role="document">
                     <div class="taskbot-modalcontent modal-content">
                         <div id="taskbot-model-body"></div>
@@ -48,7 +48,7 @@ if (!class_exists('Taskbot_Modal_Popup')) {
                 </div>
             </div>
             
-            <div class="modal hidden fade taskbot-profilepopup tb-addonspopup" tabindex="-1" role="dialog" id="taskbot-taskaddon-popup">
+            <div style="display: none;" class="modal hidden fade taskbot-profilepopup tb-addonspopup" tabindex="-1" role="dialog" id="taskbot-taskaddon-popup">
                 <div class="modal-dialog modal-dialog-centered" role="document">
                     <div class="taskbot-modalcontent modal-content">
                         <div class="tb-popuptitle">
@@ -60,7 +60,7 @@ if (!class_exists('Taskbot_Modal_Popup')) {
                 </div>
             </div>
 
-            <div class="modal fade tb-creditwallet" id="tbcreditwallet" tabindex="-1" role="dialog" aria-hidden="true">
+            <div style="display: none;" class="modal fade tb-creditwallet" id="tbcreditwallet" tabindex="-1" role="dialog" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="tb-popuptitle">
@@ -89,7 +89,7 @@ if (!class_exists('Taskbot_Modal_Popup')) {
                 </div>
             </div>
 
-            <div class="modal fade tb-modal" id="taskbot-popup" tabindex="-1" role="dialog" aria-hidden="true"></div>
+            <div style="display: none;" class="modal fade tb-modal" id="taskbot-popup" tabindex="-1" role="dialog" aria-hidden="true"></div>
             <?php
             echo ob_get_clean();
         }
@@ -122,7 +122,7 @@ if (!class_exists('Taskbot_Modal_Popup')) {
                     wp_add_inline_script( 'taskbot', $script, 'after' );
                 }
                 ?>
-                <div class="modal fade tk-reg-popups" id="tk-login-model" tabindex="-1" aria-labelledby="tk-login-modelLabel" aria-hidden="true">
+                <div style="display: none;" class="modal fade tk-reg-popups" id="tk-login-model" tabindex="-1" aria-labelledby="tk-login-modelLabel" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered">
                         <div class="modal-content tk-login-popup-content">
                             <div class="modal-body">
@@ -132,7 +132,7 @@ if (!class_exists('Taskbot_Modal_Popup')) {
                         </div>
                     </div>
                 </div>
-                <div class="modal fade tk-reg-popups" id="tk-signup-model" tabindex="-1" aria-labelledby="tk-signup-modelLabel" aria-hidden="true">
+                <div style="display: none;" class="modal fade tk-reg-popups" id="tk-signup-model" tabindex="-1" aria-labelledby="tk-signup-modelLabel" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered">
                         <div class="modal-content tk-signup-popup-content">
                             <div class="modal-body">
@@ -142,7 +142,7 @@ if (!class_exists('Taskbot_Modal_Popup')) {
                         </div>
                     </div>
                 </div>
-                <div class="modal fade tk-reg-popups" id="tk-pass-model" tabindex="-1" aria-labelledby="tk-pass-modelLabel" aria-hidden="true">
+                <div style="display: none;" class="modal fade tk-reg-popups" id="tk-pass-model" tabindex="-1" aria-labelledby="tk-pass-modelLabel" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered">
                         <div class="modal-content tk-pass-popup-content">
                             <div class="modal-body">
@@ -155,7 +155,7 @@ if (!class_exists('Taskbot_Modal_Popup')) {
             <?php }
             ?>
             <!-- Add New Faq Popup Start-->
-            <div class="modal fade tb-addonpopup" id="addnewfaq" tabindex="-1" role="dialog" aria-hidden="true">
+            <div style="display: none;" class="modal fade tb-addonpopup" id="addnewfaq" tabindex="-1" role="dialog" aria-hidden="true">
                 <div class="modal-dialog tb-modaldialog" role="document">
                     <div class="modal-content">
 
@@ -201,7 +201,7 @@ if (!class_exists('Taskbot_Modal_Popup')) {
         public function taskbot_reject_task()
         {
             ?>
-            <div class="modal fade tb-taskreject" id="tb-reject-task" tabindex="-1" role="dialog" aria-hidden="true">
+            <div style="display: none;" class="modal fade tb-taskreject" id="tb-reject-task" tabindex="-1" role="dialog" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="tb-popuptitle">
