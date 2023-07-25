@@ -1,0 +1,76 @@
+/* Scss Document */
+
+.text {
+    $marb: 25px;
+    img {
+        max-width: 100%!important;
+        height: auto!important;
+    }
+    ul {
+        margin-bottom: $marb;
+        list-style-type: square;
+        list-style-position: inside;
+    }
+    ul ul {
+        margin-top: $marb;
+        margin-left: 15px;
+    }
+    ol {
+        margin-bottom: $marb;
+        margin-left: 0px;
+        list-style-position: inside;
+    }
+    ul ul li {
+        background-image: none;
+        padding-left: 0px;
+        list-style-type: square;
+    }
+    li+li {
+        margin-top: 5px;
+    }
+    p {
+        margin-bottom: $marb;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    table {
+        margin-bottom: $marb;
+        background-color: #fff;
+        border-collapse: collapse;
+        width: 100%;
+        tr {
+            &:nth-child(2n+2) {
+                background-color: rgba(238, 238, 238, 0.42);
+            }
+            &:hover {
+                background-color: rgba(238, 238, 238, 0.8);
+            }
+        }
+        th {
+            background-color: #30A2D9;
+            padding: 15px 10px;
+            color: #fff;
+            border: 1px solid #fff;
+            p {
+                margin-bottom: 0;
+            }
+        }
+        td {
+            padding: 10px;
+            border: 1px solid #fff;
+            p {
+                margin-bottom: 0;
+            }
+        }
+    }
+    blockquote {
+        margin-bottom: $marb;
+        color: #fff;
+        background-color: #30A2D9;
+        padding: 10px;
+    }
+    blockquote p {
+        margin-bottom: 0px;
+    }
+}
