@@ -1,0 +1,562 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Taskbot REST API\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-17 13:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.3; wp-6.1.1\n"
+"X-Domain: taskbot-api"
+
+#: public/api/settings.php:90
+#, php-format
+msgid "%s freelancer"
+msgid_plural "%s freelancers"
+msgstr[0] ""
+msgstr[1] ""
+
+#: public/api/rest-api.php:3261
+msgid "Add-on added successfully!."
+msgstr ""
+
+#: public/api/rest-api.php:3202
+msgid "Add-on price is required"
+msgstr ""
+
+#: public/api/rest-api.php:3201
+msgid "Add-on title is required"
+msgstr ""
+
+#: public/api/rest-api.php:4546 public/api/rest-api.php:4734
+msgid "Address is required"
+msgstr ""
+
+#. Author of the plugin
+msgid "Amento Tech Pvt ltd"
+msgstr ""
+
+#: public/class-taskbot-api-function.php:147 public/api/rest-api.php:1915
+msgid "Approved"
+msgstr ""
+
+#: public/api/rest-api.php:3999
+msgid "Attachment is missing"
+msgstr ""
+
+#: public/api/rest-api.php:5507
+msgid "Authorization Token does not found!"
+msgstr ""
+
+#: public/api/rest-api.php:3854
+msgid "Buyer name"
+msgstr ""
+
+#: public/api/rest-api.php:4194
+msgid "Cancelled"
+msgstr ""
+
+#: public/api/rest-api.php:4736
+msgid "City is required"
+msgstr ""
+
+#: public/api/rest-api.php:4733
+msgid "Company is required"
+msgstr ""
+
+#: public/api/rest-api.php:4191
+msgid "Completed"
+msgstr ""
+
+#: public/api/rest-api.php:4547
+msgid "Contact number is required"
+msgstr ""
+
+#: public/api/rest-api.php:5067
+msgid "Country field is required"
+msgstr ""
+
+#: public/api/rest-api.php:4827
+msgid "Country is required"
+msgstr ""
+
+#: public/api/rest-api.php:4735
+msgid "country is required"
+msgstr ""
+
+#: public/api/rest-api.php:4935
+msgid "Decline detail is required"
+msgstr ""
+
+#: public/api/rest-api.php:4778
+msgid "Degree title is required"
+msgstr ""
+
+#: public/class-taskbot-api-function.php:138
+msgid "Drafted"
+msgstr ""
+
+#: public/api/rest-api.php:4739
+msgid "email is required"
+msgstr ""
+
+#: public/api/rest-api.php:4836
+msgid "English level is required"
+msgstr ""
+
+#: public/api/rest-api.php:4046
+msgid "File has been downloaded"
+msgstr ""
+
+#: public/api/rest-api.php:4731 public/api/rest-api.php:4825
+msgid "First name is required"
+msgstr ""
+
+#: public/api/rest-api.php:4837
+msgid "Hourly rate is required"
+msgstr ""
+
+#. URI of the plugin
+msgid ""
+"https://codecanyon.net/item/taskbot-a-freelancer-marketplace-wordpress-"
+"plugin/35344021"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://themeforest.net/user/amentotech"
+msgstr ""
+
+#: public/api/rest-api.php:4732 public/api/rest-api.php:4826
+msgid "Last name is required"
+msgstr ""
+
+#: public/mobile-checkout/mobile-checkout.php:83
+msgid "Loading..."
+msgstr ""
+
+#: public/api/rest-api.php:5051
+msgid "Maximum price is required"
+msgstr ""
+
+#: public/api/rest-api.php:5050
+msgid "Minimum price is required"
+msgstr ""
+
+#: public/mobile-checkout/init.php:82
+msgid "Mobile Checkout"
+msgstr ""
+
+#: admin/api-settings/settings/mobile-settings.php:18
+msgid "Mobile checkout page"
+msgstr ""
+
+#: public/mobile-checkout/mobile-checkout.php:75
+msgid "Mobile Checkout Template"
+msgstr ""
+
+#: public/api/rest-api.php:4545
+msgid "Name is required"
+msgstr ""
+
+#: public/class-taskbot-api-function.php:153 public/api/rest-api.php:4197
+msgid "New"
+msgstr ""
+
+#: public/api/rest-api.php:5394
+msgid "No recommended freelancers found."
+msgstr ""
+
+#: public/api/rest-api.php:5241 public/api/rest-api.php:5287
+msgid "No record found"
+msgstr ""
+
+#: public/api/rest-api.php:4188
+msgid "Ongoing"
+msgstr ""
+
+#: public/api/rest-api.php:2395 public/api/rest-api.php:2521
+#: public/api/rest-api.php:3217 public/api/rest-api.php:3265
+#: public/api/rest-api.php:3301
+msgid "Oops"
+msgstr ""
+
+#: public/api/rest-api.php:3062 public/api/rest-api.php:3076
+#: public/api/rest-api.php:3082 public/api/rest-api.php:3142
+#: public/api/rest-api.php:3166 public/api/rest-api.php:3209
+msgid "Oops!"
+msgstr ""
+
+#: public/api/rest-api.php:4437
+msgid "Package subscription"
+msgstr ""
+
+#: public/class-taskbot-api-function.php:135
+msgid "Pending"
+msgstr ""
+
+#: public/api/rest-api.php:4738
+msgid "Phone is required"
+msgstr ""
+
+#: public/api/rest-api.php:1447
+msgid "Please add amount"
+msgstr ""
+
+#: public/api/rest-api.php:4485
+msgid "Please add deactive account setails."
+msgstr ""
+
+#: public/api/rest-api.php:3769
+msgid "Please add dispute details"
+msgstr ""
+
+#: public/api/rest-api.php:1273 public/api/rest-api.php:4331
+msgid "Please add message to send."
+msgstr ""
+
+#: public/api/rest-api.php:1451
+#, php-format
+msgid "Please add minimum amount %s to add in your wallet"
+msgstr ""
+
+#: public/api/rest-api.php:5092
+#, php-format
+msgid "Please add minimum price is greater then %s"
+msgstr ""
+
+#: public/api/rest-api.php:5065
+msgid "Please add the zipcode"
+msgstr ""
+
+#: public/api/rest-api.php:5083
+msgid "Please add valid maximum price value"
+msgstr ""
+
+#: public/api/rest-api.php:2423
+msgid ""
+"Please don't leave empty custom fields. Either remove this or add the field "
+"title"
+msgstr ""
+
+#: public/api/rest-api.php:2254
+msgid "Please enter task title."
+msgstr ""
+
+#: public/api/rest-api.php:4484
+msgid "Please select deactive account reason."
+msgstr ""
+
+#: public/api/rest-api.php:5045
+msgid "Please select location"
+msgstr ""
+
+#: public/api/rest-api.php:5046
+msgid "Please select project type"
+msgstr ""
+
+#: public/api/rest-api.php:2255
+msgid "Please select task category."
+msgstr ""
+
+#: public/api/rest-api.php:3768
+msgid "Please select the dispute reason"
+msgstr ""
+
+#: public/api/rest-api.php:4561
+msgid "Please upload a document"
+msgstr ""
+
+#: public/api/rest-api.php:4737
+msgid "Postal code is required"
+msgstr ""
+
+#: public/api/rest-api.php:5194
+msgid "Project id is missing!"
+msgstr ""
+
+#: public/api/rest-api.php:5070
+msgid "Project step1"
+msgstr ""
+
+#: public/api/rest-api.php:5044
+msgid "Project title is required"
+msgstr ""
+
+#: public/api/rest-api.php:4936
+msgid "Proposal id is required"
+msgstr ""
+
+#: public/class-taskbot-api-function.php:149
+msgid "Published"
+msgstr ""
+
+#: public/class-taskbot-api-function.php:143
+msgid "Rejected"
+msgstr ""
+
+#: public/api/rest-api.php:2195 public/api/rest-api.php:3038
+#: public/api/rest-api.php:3126
+msgid "Restricted Access"
+msgstr ""
+
+#: public/api/rest-api.php:5107
+msgid "Select No. of freelancers"
+msgstr ""
+
+#: admin/api-settings/settings/mobile-settings.php:20
+msgid "Select page that selected mobile checkout template"
+msgstr ""
+
+#: public/api/rest-api.php:3859
+msgid "Seller name"
+msgstr ""
+
+#: public/api/rest-api.php:4835
+msgid "Seller type is required"
+msgstr ""
+
+#: public/api/rest-api.php:4519
+msgid "Settings have been updated successfully"
+msgstr ""
+
+#: public/api/rest-api.php:5424
+msgid "Some error occur, please try again later."
+msgstr ""
+
+#: public/api/rest-api.php:986
+msgid "Something is missing"
+msgstr ""
+
+#: public/api/rest-api.php:3302
+msgid "Something went wrong"
+msgstr ""
+
+#: public/api/rest-api.php:1272 public/api/rest-api.php:4330
+msgid "Something went wrong please try again."
+msgstr ""
+
+#: public/api/rest-api.php:1957
+msgid "Sorry! you are restricted to perform this action on demo site."
+msgstr ""
+
+#: public/api/rest-api.php:4779
+msgid "Start date is required"
+msgstr ""
+
+#: public/api/rest-api.php:5016
+msgid "Step id is missing or incorrect"
+msgstr ""
+
+#: public/api/rest-api.php:5449
+msgid "Successfully logged in"
+msgstr ""
+
+#: public/api/rest-api.php:4652
+msgid "Successfully! deleted your verification request"
+msgstr ""
+
+#: public/api/rest-api.php:4631
+msgid "Successfully! submitted your request for verification"
+msgstr ""
+
+#: public/api/rest-api.php:1794
+msgid "Successfully! update profile image"
+msgstr ""
+
+#: public/api/rest-api.php:2996
+msgid "Task has been added successfully!"
+msgstr ""
+
+#: public/api/rest-api.php:3072
+msgid "Task has been deleted!"
+msgstr ""
+
+#: public/api/rest-api.php:2391 public/api/rest-api.php:2517
+msgid "Task has been updated"
+msgstr ""
+
+#: public/api/rest-api.php:2904
+msgid "Task has been updated!"
+msgstr ""
+
+#: public/api/rest-api.php:4441
+msgid "Task hiring"
+msgstr ""
+
+#: public/api/rest-api.php:3162
+msgid "Task status has been updated!."
+msgstr ""
+
+#. Name of the plugin
+msgid "Taskbot REST API"
+msgstr ""
+
+#: admin/api-settings/settings/mobile-settings.php:10
+msgid "Taskbot Rest API"
+msgstr ""
+
+#: public/api/rest-api.php:2396 public/api/rest-api.php:2522
+#: public/api/rest-api.php:3200 public/api/rest-api.php:3203
+#: public/api/rest-api.php:3266
+msgid "There is an error occur, please try again later"
+msgstr ""
+
+#: public/api/rest-api.php:3077 public/api/rest-api.php:3083
+msgid "There is an error while removing the task."
+msgstr ""
+
+#: public/api/rest-api.php:3218
+msgid "There is error while saving into database"
+msgstr ""
+
+#: public/api/rest-api.php:3167
+msgid "There is error while updating Task status in database."
+msgstr ""
+
+#. Description of the plugin
+msgid "This plugin include REST API for Taskbot Mobile APPS"
+msgstr ""
+
+#: public/api/rest-api.php:3063
+msgid "This task has ongoing orders you cannot remove this task"
+msgstr ""
+
+#: public/api/rest-api.php:3134
+msgid "This task need to admin approval."
+msgstr ""
+
+#: public/api/rest-api.php:2413 public/api/rest-api.php:2422
+msgid "Uh-Oh!"
+msgstr ""
+
+#: public/api/rest-api.php:4934 public/api/rest-api.php:4953
+msgid "User id is missing"
+msgstr ""
+
+#: public/api/rest-api.php:1161
+msgid "User id is missing!"
+msgstr ""
+
+#: public/api/rest-api.php:5456
+msgid "user name and password are required fields."
+msgstr ""
+
+#: public/api/rest-api.php:4548
+msgid "Verification number is required"
+msgstr ""
+
+#: public/api/rest-api.php:4439
+msgid "Wallet amount"
+msgstr ""
+
+#: public/api/rest-api.php:5218 public/api/rest-api.php:5255
+#: public/api/rest-api.php:5307
+msgid "Woocommerce is not activated!"
+msgstr ""
+
+#: public/api/rest-api.php:3024 public/api/rest-api.php:3111
+msgid "WooCommerce plugin needs to be installed."
+msgstr ""
+
+#: public/api/rest-api.php:2390 public/api/rest-api.php:2516
+#: public/api/rest-api.php:2903 public/api/rest-api.php:2995
+#: public/api/rest-api.php:3071 public/api/rest-api.php:3161
+#: public/api/rest-api.php:3260
+msgid "Woohoo!"
+msgstr ""
+
+#: public/api/rest-api.php:2414
+#, php-format
+msgid "You are allowed to add only %s custom fields"
+msgstr ""
+
+#: public/api/rest-api.php:1243 public/api/rest-api.php:4983
+#: public/api/rest-api.php:5165
+msgid "You are not allowd to perfom this action"
+msgstr ""
+
+#: public/api/rest-api.php:2058 public/api/rest-api.php:2118
+#: public/api/rest-api.php:2119 public/api/rest-api.php:2137
+#: public/api/rest-api.php:2152 public/api/rest-api.php:3678
+#: public/api/rest-api.php:3679 public/api/rest-api.php:3699
+#: public/api/rest-api.php:3732 public/api/rest-api.php:3766
+#: public/api/rest-api.php:3767 public/api/rest-api.php:4824
+#: public/api/rest-api.php:5108
+msgid "You are not allowed to perform this action"
+msgstr ""
+
+#: public/api/rest-api.php:5502 public/api/rest-api.php:5521
+msgid "You are not allowed to perform this action!"
+msgstr ""
+
+#: public/api/rest-api.php:2196 public/api/rest-api.php:3039
+#: public/api/rest-api.php:3127
+msgid "You are not allowed to perform this action."
+msgstr ""
+
+#: public/api/rest-api.php:3143
+msgid ""
+"You are not allowed to update status. Please upgrade your package to "
+"continue."
+msgstr ""
+
+#: public/api/rest-api.php:3770
+msgid "You must select terms and conditions"
+msgstr ""
+
+#: public/api/rest-api.php:3683
+msgid "You need to add rating"
+msgstr ""
+
+#: public/api/rest-api.php:3685
+msgid "You need to add rating details"
+msgstr ""
+
+#: public/api/rest-api.php:3684
+msgid "You need to add rating title"
+msgstr ""
+
+#: public/api/rest-api.php:2120
+msgid "You need to cancellation reason"
+msgstr ""
+
+#: public/api/rest-api.php:4676
+msgid "Your account have been update successfully."
+msgstr ""
+
+#: public/api/rest-api.php:2095
+msgid "your are not allow to perform this action"
+msgstr ""
+
+#: public/api/rest-api.php:4754
+msgid "Your billing settings have been updated."
+msgstr ""
+
+#: public/api/rest-api.php:4798
+msgid "Your education have been updated"
+msgstr ""
+
+#: public/api/rest-api.php:4707
+msgid "Your privacy settings have been updated."
+msgstr ""
+
+#: public/api/rest-api.php:4905
+msgid "Your profile has been updated"
+msgstr ""
+
+#: public/api/rest-api.php:4828
+msgid "Zip code is required"
+msgstr ""
+
+#: public/api/rest-api.php:4039
+msgid ""
+"Zip library is not installed on the server, please contact to hosting "
+"provider"
+msgstr ""
